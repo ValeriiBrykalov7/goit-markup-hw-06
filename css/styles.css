@@ -69,11 +69,18 @@ input {
 .burger {
   background-color: transparent;
   border: none;
+  width: 24px;
+  height: 24px;
+  position: relative;
 }
 .burger-icon {
   width: 18px;
   height: 16px;
   fill: #2f2f37;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* section-hero */
